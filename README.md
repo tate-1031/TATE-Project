@@ -1,2 +1,3 @@
 # TATE-Project
 A high-impact automation suite for GitHub repository maintenance, leveraging AI to streamline issue triage and automated PR quality insights.
+# TATE Project ## 소개 TATE(Task Automation & Triage Engine)는 GitHub 이슈 및 PR 관리에서 발생하는 정형화된 업무를 자동화하는 파이프라인 도구입니다. 메인테이너가 핵심 로직 개발에 더 집중할 수 있도록, 지루한 이슈 분류와 초기 코드 리뷰 단계를 자동화합니다. ## 주요 기능 - Automated Triage: 새로운 이슈 발생 시, 기존 이슈 패턴을 분석하여 적절한 라벨을 자동 부착. - PR Insight Report: PR의 변경된 코드 라인을 분석하여 복잡도를 계산하고, 수정이 필요한 위험 구간을 제안. - Webhook Integration: GitHub Webhook을 통해 실시간으로 이벤트를 수신하여 즉각적인 액션 수행. ## 사용 방법 ### 환경 설정 - export OPENAI_API_KEY='your-api-key-here' - export GITHUB_TOKEN='your-github-personal-access-token' ### 실행 - pip install -r requirements.txt - python main.py --repo "owner/repo-name" ## 라이선스 - MIT License
